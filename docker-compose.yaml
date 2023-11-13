@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  exporter:
+    build: .
+    volumes:
+      - ./config.yaml:/app/config.yaml
+      - /var/log:/var/log
+      - /tmp:/tmp
+    ports:
+      - "8765:8000"

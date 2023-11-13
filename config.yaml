@@ -1,0 +1,14 @@
+# folders:
+#   - /tmp
+
+regex_folders:
+  - path: /var/log
+    pattern: ".*.log"
+
+files:
+  - /tmp/polybar1.log
+
+# s3_buckets:
+#   - name: my-first-s3-bucket
+#     aws_access_key_id: <Your_AWS_Access_Key_ID>
+#     aws_secret_access_key: <Your_AWS_Secret_Access_Key>
